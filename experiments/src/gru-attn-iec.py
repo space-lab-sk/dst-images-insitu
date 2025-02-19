@@ -160,12 +160,15 @@ if __name__=="__main__":
 
     config = load_config(f"configs/conf_gru_attn_iec/{config_file_name}")
     EXPERIMENT_NAME = config["logging"]["experiment_name"]
+    # uncomment this line to save also seed you running
     #EXPERIMENT_NAME = EXPERIMENT_NAME + "__" + seed_input
     EXPERIMENT_NOTES = config["logging"]["notes"]
     logger = Logger(EXPERIMENT_NAME)
 
     set_seed(int(seed_input))
     device = get_torch_device(device_input)
+
+    logger.log_message(f"runninng seed: {seed_input}")
 
     BATCH_SIZE = config["training"]["batch_size"]
     LEARNING_RATE = config["training"]["learning_rate"]

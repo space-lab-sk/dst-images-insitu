@@ -5,3 +5,7 @@ matplotlib
 scikit-learn
 seaborn
 scipy
+tqdm
+plotly
+nbformat
+POT
