@@ -62,32 +62,39 @@ def get_k_fold(k_fold: int):
     """
 
     if k_fold == 1:
-        file_numbers_train = [4, 6, 7, 8, 9, 11, 12, 13, 14, 19, 21, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 1, 22, 5, 13]
-        file_numbers_val = [10,17,28]  
-        file_numbers_test = [38,15,23] 
+        file_numbers_train = [6, 7, 9, 12, 13, 19, 25, 29, 30, 31, 32, 33, 34, 35, 36, 37, 1, 22, 5, 13, 10, 17, 38, 15, 23]
+        file_numbers_val = [4, 21, 11]
+        file_numbers_test = [8, 14, 28]
 
 
     elif k_fold == 2:
-        file_numbers_train = [4, 7, 8, 9, 12, 13, 14, 21, 25, 29, 30, 31, 32, 33, 35, 36, 37, 1, 22, 5, 13, 10, 38, 15, 23]
-        file_numbers_val = [6, 19, 28]  
-        file_numbers_test = [34,17,11] 
+        file_numbers_train = [4, 6, 7, 8, 9, 11, 12, 13, 14, 29, 30, 31, 32, 33, 34, 35, 36, 37, 5, 13, 10, 17, 38, 15, 23]
+        file_numbers_val = [22, 19, 28]
+        file_numbers_test = [25, 21, 1] 
 
     
     elif k_fold == 3:
-        file_numbers_train = [1, 4, 5, 6, 7, 9, 10, 11, 12, 13, 15, 17, 19, 21, 22, 25, 29, 31, 32, 33, 34, 36, 37, 38]
-        file_numbers_val = [8,30,28]  
-        file_numbers_test = [35,14,23] 
+        file_numbers_train = [6, 7, 8, 9, 11, 12, 13, 14, 19, 21, 25, 29, 30, 32, 33, 35, 36, 37, 22, 5, 13, 10, 17, 38, 23]
+        file_numbers_val = [4, 31, 1]
+        file_numbers_test = [34, 15, 28]
 
 
     elif k_fold == 4:
-        file_numbers_train = [1, 4, 5, 6, 7, 9, 10, 12, 17, 19, 21, 22, 23, 25, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38]
-        file_numbers_val = [8, 14, 13]  
-        file_numbers_test = [34, 15, 11] 
+        file_numbers_train = [4, 6, 8, 9, 11, 12, 14, 19, 25, 29, 30, 31, 32, 33, 34, 36, 37, 22, 5, 10, 17, 28, 38, 23]
+        file_numbers_val = [7, 15, 13]
+        file_numbers_test = [35, 21, 1]
 
     elif k_fold == 5:
-        file_numbers_train = [1, 4, 6, 7, 9, 10, 13, 15, 17, 19, 21, 22,  23, 25, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38]
-        file_numbers_val = [5, 14, 11]  
-        file_numbers_test = [8, 30, 12] 
+        file_numbers_train = [4, 6, 8, 9, 11, 12, 13, 14, 25, 30, 31, 32, 33, 34, 36, 37, 1, 22, 5, 13, 10, 17, 28, 38, 15]
+        file_numbers_val = [7, 21, 29]
+        file_numbers_test = [35, 19, 23]
+        
+    # these are random created folds - not used
+        
+    elif k_fold == 6:
+        file_numbers_train = [4, 6, 8, 9, 11, 12, 13, 14, 25, 30, 31, 32, 33, 34, 36, 37, 1, 22, 5, 13, 10, 17, 28, 38, 15]
+        file_numbers_val = [7, 10, 13, 17]  
+        file_numbers_test = [9, 22] 
     
     else:
         raise Exception("wrong k-fold selected")

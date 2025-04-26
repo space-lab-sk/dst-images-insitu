@@ -134,30 +134,29 @@ def get_detail_properties(K_FOLD: int, detail: int, longer_context: bool=False):
     
     k_folds_data = {
     1: [
-        {"title": "Detail on event 38", "detail_start": 880 - int((padding/2)), "detail_end": 1050 - int((padding/2))},
-        {"title": "Detail on event 15", "detail_start": 2450 - padding, "detail_end": 2600 - padding},
-        {"title": "Detail on event 23", "detail_start": 3670 - padding, "detail_end": 3950 - padding}
+        {"title": "Detail on event 8", "detail_start": 350 - padding, "detail_end": 490 - padding},
+        {"title": "Detail on event 14", "detail_start": 1780 - padding, "detail_end": 1880 - padding},
+        {"title": "Detail on event 28", "detail_start": 2150 - padding, "detail_end": 2280 - padding}
     ],
     2: [
-        {"title": "Detail on event 34", "detail_start": 1520 - padding, "detail_end": 1700 - padding},
-        {"title": "Detail on event 17", "detail_start": 2520 - padding, "detail_end": 2750 - padding},
-        {"title": "Detail on event 11", "detail_start": 3770 - padding, "detail_end": 3950 - padding}
+        {"title": "Detail on event 25", "detail_start": 420 - padding, "detail_end": 550 - padding},
+        {"title": "Detail on event 21", "detail_start": 1520 - padding, "detail_end": 1630 - padding},
+        {"title": "Detail on event 1", "detail_start": 2380 - padding, "detail_end": 2480 - padding}
     ],
     3: [
-        #{"title": "Detail on event 35", "detail_start": 1000 - padding, "detail_end": 1200 - padding},
-        {"title": "Detail on event 35", "detail_start": 900 - padding, "detail_end": 1100 - padding},
-        {"title": "Detail on event 14", "detail_start": 2520 - padding, "detail_end": 2750 - padding},
-        {"title": "Detail on event 23", "detail_start": 3770 - padding, "detail_end": 3950 - padding}
+        {"title": "Detail on event 34", "detail_start": 650 - padding, "detail_end": 850 - padding},
+        {"title": "Detail on event 15", "detail_start": 2180 - padding, "detail_end": 2300 - padding},
+        {"title": "Detail on event 28", "detail_start": 3130 - padding, "detail_end": 3300 - padding}
     ],
     4: [
-        {"title": "Detail on event 34", "detail_start": 1520 - padding, "detail_end": 1700 - padding},
-        {"title": "Detail on event 15", "detail_start": 2400 - padding, "detail_end": 2520 - padding},
-        {"title": "Detail on event 11", "detail_start": 3470 - padding, "detail_end": 3950 - padding}
+        {"title": "Detail on event 35", "detail_start": 780 - padding, "detail_end": 950 - padding},
+        {"title": "Detail on event 21", "detail_start": 2320 - padding, "detail_end": 2500 - padding},
+        {"title": "Detail on event 1", "detail_start": 3190 - padding, "detail_end": 3320 - padding}
     ],
     5: [
-        {"title": "Detail on event 8", "detail_start": 500 - padding, "detail_end": 600 - padding},
-        {"title": "Detail on event 30", "detail_start": 1250 - padding, "detail_end": 1420 - padding},
-        {"title": "Detail on event 12", "detail_start": 2770 - padding, "detail_end": 2950 - padding}
+        {"title": "Detail on event 35", "detail_start": 780 - padding, "detail_end": 950 - padding},
+        {"title": "Detail on event 19", "detail_start": 2300 - padding, "detail_end": 2500 - padding},
+        {"title": "Detail on event 23", "detail_start": 3460 - padding, "detail_end": 3700 - padding}
     ],
     6: [
         {"title": "Detail on event 9", "detail_start": 500 - padding, "detail_end": 700 - padding},
