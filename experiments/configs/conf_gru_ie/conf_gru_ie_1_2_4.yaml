@@ -1,0 +1,19 @@
+data:
+  k_fold: 4
+  prediction_window: 20
+  time_steps: 100
+logging:
+  experiment_name: gru_ie_1_2_4
+  notes: Experiment from batch 1
+model:
+  dropout: 0.2
+  hidden_channels: 64
+  input_size: 9
+  num_gru_layers: 2
+  output_size: 1
+training:
+  augumentation_rate: 0.1
+  batch_size: 32
+  learning_rate: 1.0e-05
+  num_epochs: 200
+  weight_decay: 0.1
