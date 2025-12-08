@@ -1,6 +1,6 @@
 # dst-images-insitu
 
-This is supplemental code for developing deep learning models on MESWE dataset. 
+This is supplemental code for developing deep learning models on MESWE dataset, published in [Combining Solar Imagery and In Situ Data for Prediction of Geomagnetic Storms](https://iopscience.iop.org/article/10.3847/1538-4357/ae1cc7) paper.  
 
 Folder [data/](data/) contains data from most extreme solar activity periods. Data are in form of .csv files in raw and processed type.
 
